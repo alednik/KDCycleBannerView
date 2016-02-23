@@ -26,6 +26,8 @@
 
 @implementation KDCycleBannerView
 
+@synthesize pageControl;
+
 static void *kContentImageViewObservationContext = &kContentImageViewObservationContext;
 
 - (id)initWithFrame:(CGRect)frame
